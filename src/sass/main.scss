@@ -132,7 +132,6 @@ img {
 .right {
     width: 50%;
     text-align: center;
-
 }
 
 .boxes-container {
@@ -182,7 +181,7 @@ img {
 //About section
 .section__about {
     text-align: center;
-    margin-bottom: 10rem;
+    // margin-bottom: 10rem;
 }
 
 .section__about--textContainer{
@@ -277,14 +276,6 @@ img {
 }
 
 
-.projects__images--container{
-    height: auto;
-    display: inline-block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
 
 .projects__image {
     width: 100%;
@@ -322,17 +313,19 @@ img {
 
 .blue {
     // background-color: rgba(113, 231, 246, 0.56);
-    background-color: rgba(78, 74, 76, 0.5);
+    // background-color: rgba(78, 74, 76, 0.5);
+    // background-color: rgba(133, 207, 254, 0.8);
+    background-color: rgba(82, 165, 217, 0.8);
     margin: 0 auto;
     z-index:1000;
-    height: 12rem;
+    min-height: 12rem;
     position: relative;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 .white {
-    height:12rem;
+    min-height:19rem;
     background-color: rgba(253, 253, 253, 0.78);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -341,17 +334,33 @@ img {
 
 .contact__form {
 
+    &__container {
+    }
+
     &--left {
         width: 30%;
-        // background: linear-gradient(to top, rgba(79, 143, 221, 0.78), rgba(124, 177, 243, 0.78));
-        background: linear-gradient(to top, rgba(78, 74, 76, 0.5),rgba(253, 253, 253, 0.78));
+        background: linear-gradient(to top, rgba(79, 143, 221, 0.78), rgba(124, 177, 243, 0.78));
+        color: white;
+        margin-right:-15px;
+        // background: linear-gradient(to top, rgba(78, 74, 76, 0.5),rgba(253, 253, 253, 0.78));
 
-        border-radius: 12px;  
+        border-radius: 12px;
+
+        & h4 {
+            font-weight: 300;
+        }
+
+        & p {
+            font-weight: 500;
+            font-size: 25px;
+        }
     }
 
 
     &--right {
         width: 70%;
+        background-position: top;
+        background-size: cover;
     }
 
 }
@@ -477,6 +486,7 @@ img {
     width: 50%;
     height:30rem;
     padding: 0;
+    margin-top: 2.5rem;
 }
 
 

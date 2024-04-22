@@ -1,11 +1,14 @@
 import React from "react";
 import valletta from '../imgs/valletta.jpg'
+import sunset from '../imgs/sunset.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faPhone, faEnvelope, faLocationDot} from "@fortawesome/free-solid-svg-icons"
 
 const Contact = () => {
     return ( 
         <section className="section__contact">
+            {/*             <div className="row" id = "services__row" style={{ backgroundImage: `linear-gradient(to bottom, rgba(90, 90, 90, 0.8), rgba(45, 45, 45, 0.8)), url(${valletta})` }}>
+ */}
             <div className="row" id = "contact__row">
                 <div className="blue">
                     <div className="contact__form__container">
